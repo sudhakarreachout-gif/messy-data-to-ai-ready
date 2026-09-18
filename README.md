@@ -1,14 +1,19 @@
-# Messy Data → AI-Ready Data
+# Messy Cafe Sales Data → AI-Ready Data
 
-This project demonstrates how I clean messy real-world data and convert it into a clean, structured format that is ready for AI / Machine Learning / RAG use.
+This project shows how I clean real-world messy sales data and turn it into clean, structured, AI-ready data.
 
-### What this project shows:
-- Handling messy CSVs (inconsistent names, emails, numbers, missing values, duplicates)
-- Cleaning and standardizing data using Python + Pandas
-- Creating an AI-ready text version useful for embeddings or RAG systems
+### Dataset
+Real dirty cafe sales data (10,000 transactions) with common problems:
+- Missing values
+- Inconsistent names and categories
+- Invalid entries
+- Mixed formats
 
-### Files
-- `Messy_CSV_to_AI_Ready.ipynb` → Complete notebook with before & after
+### What I did
+- Cleaned Item, Quantity, Price, Payment Method, and Location
+- Handled missing values
+- Standardized text formats
+- Created an AI-ready text column useful for RAG / embeddings / machine learning
 
 ### How to run
 Open the notebook in Google Colab or Jupyter and run all cells.
